@@ -41,8 +41,8 @@ This is a **multi-cycle CPU** design that executes instructions over multiple cl
    - This can be used for hardware synthesis
 
 ## Structures
-![alt text](../images/fig1.png)
-![alt text](../images/fig3.png)
+![alt text](images/fig1.png)
+![alt text](images/fig3.png)
 
 ###  What This CPU CAN Do
 
@@ -72,4 +72,5 @@ This is a **multi-cycle CPU** design that executes instructions over multiple cl
 iverilog -o riscvmulti.vvp -g2012 controller.v datapath.v mem.v testbench.v
 vvp riscvmulti.vvp
 '''
+
 You should be seeing "Simulation succeeded"
